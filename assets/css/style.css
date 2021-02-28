@@ -1,0 +1,50 @@
+body{
+    padding: 30px;
+    background-color: navajowhite;
+}
+a,
+a:visited,
+a:active,
+a:link,
+a:hover{
+    text-decoration: none;
+}
+
+.container{
+    margin-bottom: 50px;
+}
+
+.menu{
+    font-size: 0;
+}
+
+.navItem{
+    display: flex;
+    width: 200px;
+    background-color: darkgoldenrod;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.navItem:hover{
+    background-color: deepskyblue;
+}
+
+.navItemCont{
+    display: inline-block;
+    position: relative;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    top: 0;
+    /*left: 100%;*/
+}
+
+.navItemCont > .submenu {
+    display: block;
+}
